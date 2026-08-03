@@ -193,10 +193,10 @@ MEDIA_ROOT = BASE_DIR / "media"
 # Custom User Model
 AUTH_USER_MODEL = "accounts.User"
 
-# CORS - allow both local development and hosted frontend
+# CORS - allow both local development and hosted frontend (GitHub Pages)
 CORS_ALLOWED_ORIGINS = config(
     "CORS_ALLOWED_ORIGINS",
-    default="http://localhost:8000,http://127.0.0.1:8000",
+    default="https://abelkwi.github.io,http://localhost:8000,http://127.0.0.1:8000",
     cast=Csv(),
 )
 CORS_ALLOW_CREDENTIALS = True
