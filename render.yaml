@@ -12,7 +12,7 @@ services:
     name: smartsave-backend
     runtime: python
     plan: free
-    buildCommand: ./build.sh
+    buildCommand: bash build.sh
     startCommand: gunicorn core.wsgi:application --workers 2 --timeout 120
     envVars:
       - key: DEBUG
