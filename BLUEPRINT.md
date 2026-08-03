@@ -1012,3 +1012,5 @@ REST_FRAMEWORK = {
 > **This blueprint is a living document. Update it as requirements evolve.**
 > 
 > Next Step: Begin Phase 1 — Foundation Stabilization
+
+Testing Render deployment
